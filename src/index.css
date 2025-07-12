@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary text-light font-mono;
+}
+
+html {
+  scroll-behavior: smooth;
+}
