@@ -1,3 +1,5 @@
+import me from "../assets/me.png";
+
 function About() {
   return (
     <section
@@ -9,7 +11,7 @@ function About() {
       </h2>
 
       <img
-        src="/src/assets/me.png"
+        src={me}
         alt="Foto de Jesús"
         className="w-28 h-28 rounded-full border-2 border-accent shadow-[0_0_15px_#00FF00] object-cover mb-6"
       />

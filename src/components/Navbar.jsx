@@ -1,4 +1,6 @@
 import { useState } from "react";
+import logo from "../assets/logo.png";
+
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -50,7 +52,7 @@ function Navbar() {
     <nav className="bg-primary text-light fixed top-0 left-0 w-full shadow-md z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <img
-          src="/src/assets/logo.png"
+          src={logo}
           alt="Logo TD"
           className="w-10 h-10 object-contain cursor-pointer"
         />

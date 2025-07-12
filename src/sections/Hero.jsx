@@ -1,11 +1,13 @@
 import { TypeAnimation } from "react-type-animation";
+import hero from "../assets/hero-bg.png";
+
 
 function Hero() {
   return (
     <section
   id="home"
   className="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center relative"
-  style={{ backgroundImage: `url('/src/assets/hero-bg.png')` }}
+  style={{ backgroundImage: `url(${hero})` }}
 >
   <div className="absolute inset-0 bg-primary opacity-80"></div>
   <div className="relative z-10">
