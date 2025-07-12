@@ -6,12 +6,6 @@ body {
   @apply bg-primary text-light font-mono;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-
-
 @keyframes pulse-glow {
   0%, 100% {
     opacity: 0.15;
@@ -21,4 +15,8 @@ html {
     opacity: 0.3;
     transform: scale(1.05);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

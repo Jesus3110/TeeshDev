@@ -10,9 +10,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
+useEffect(() => {
+  AOS.init({ duration: 1000 });
+
+  // Esperar un poco y luego forzar scroll al top
+  setTimeout(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, 100);
+}, []);
+
 
   return (
     <>

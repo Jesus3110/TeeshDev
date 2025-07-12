@@ -11,7 +11,7 @@ function Hero() {
 >
   <div className="absolute inset-0 bg-primary opacity-80"></div>
   <div className="relative z-10">
-    <h1 className="text-6xl font-bold text-accent tracking-widest mb-4">TD</h1>
+    <h1 className="text-6xl font-bold text-accent tracking-widest mb-4">TeeshDev</h1>
     <TypeAnimation
       sequence={[
         "Soy un desarrollador enfocado en crear experiencias digitales únicas, rápidas y accesibles.",
