@@ -15,7 +15,7 @@ function Contact() {
             id="name"
             name="name"
             required
-            className="w-full px-4 py-2 bg-primary text-light border border-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+             className="w-full px-4 py-2 bg-primary text-light border border-accent rounded-lg shadow-[0_0_10px_2px_#00FF00] focus:outline-none focus:shadow-[0_0_20px_4px_#00FF00] transition"
           />
         </div>
         <div>
@@ -25,7 +25,7 @@ function Contact() {
             id="email"
             name="email"
             required
-            className="w-full px-4 py-2 bg-primary text-light border border-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+             className="w-full px-4 py-2 bg-primary text-light border border-accent rounded-lg shadow-[0_0_10px_2px_#00FF00] focus:outline-none focus:shadow-[0_0_20px_4px_#00FF00] transition"
           />
         </div>
         <div>
@@ -35,7 +35,7 @@ function Contact() {
             name="message"
             rows="5"
             required
-            className="w-full px-4 py-2 bg-primary text-light border border-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-accent"
+            className="w-full px-4 py-2 bg-primary text-light border border-accent rounded-lg shadow-[0_0_10px_2px_#00FF00] focus:outline-none focus:shadow-[0_0_20px_4px_#00FF00] transition"
           ></textarea>
         </div>
         <button
