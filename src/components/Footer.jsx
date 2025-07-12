@@ -16,7 +16,7 @@ function Footer() {
 
         {/* Redes sociales */}
         <div className="flex space-x-6 mt-2 text-accent text-xl items-center justify-center">
-  <a
+  {/* <a
     href="https://github.com/Jesus3110"
     target="_blank"
     rel="noopener noreferrer"
@@ -27,7 +27,7 @@ function Footer() {
       alt="Git"
       className="w-6 h-6 rounded-md shadow-[0_0_10px_#00FF00]"
     />
-  </a>
+  </a> */}
 
   <a
     href="https://www.fiverr.com/teeshga"
