@@ -17,7 +17,7 @@ function About() {
       />
 
       <p className="text-light max-w-2xl text-lg leading-relaxed">
-        Soy <span className="text-accent font-semibold">José de Jesús Galván Ayala</span>, estudiante de Ingeniería en
+        Soy <span className="text-accent font-semibold">Teesh Dev</span>, estudiante de Ingeniería en
         Desarrollo y Gestión de Software. Tengo experiencia en desarrollo web y móvil utilizando tecnologías como PHP,
         JavaScript, Flutter y Firebase. Me considero autodidacta, proactivo y con pasión por el aprendizaje continuo.
       </p>
